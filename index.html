@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cloud Engineer Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: #e2e8f0;
+    }
+
+    header {
+      background: #020617;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: #38bdf8;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .hero {
+      text-align: center;
+    }
+
+    .hero h2 {
+      font-size: 2.5rem;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #1e293b;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #020617;
+    }
+
+    button {
+      padding: 10px 20px;
+      background: #38bdf8;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <p>Cloud Engineer | AWS | DevOps</p>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Building Scalable Cloud Solutions</h2>
+  <p>I design, deploy, and manage cloud infrastructure.</p>
+</section>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>
+    I am a cloud engineer with experience in AWS, Kubernetes, Terraform, and CI/CD pipelines.
+    I specialize in building scalable and reliable cloud architectures.
+  </p>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="projects">
+    <div class="card">
+      <h3>Cloud Infrastructure Automation</h3>
+      <p>Automated AWS infrastructure using Terraform and CI/CD pipelines.</p>
+    </div>
+    <div class="card">
+      <h3>Kubernetes Deployment</h3>
+      <p>Deployed microservices using Kubernetes and Docker.</p>
+    </div>
+    <div class="card">
+      <h3>Serverless App</h3>
+      <p>Built a serverless application using AWS Lambda and API Gateway.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email: johndoe@email.com</p>
+  <button onclick="sayHello()">Say Hello</button>
+</section>
+
+<footer>
+  <p>© 2026 John Doe</p>
+</footer>
+
+<script>
+  function sayHello() {
+    alert("Thanks for visiting my portfolio!");
+  }
+</script>
+
+</body>
+</html>
